@@ -5,6 +5,7 @@ using Microsoft.Data.SqlClient;
 using Microsoft.EntityFrameworkCore;
 using SACDS.Modelo.DTO;
 using SACDS.Modelo.EntityFramework;
+using SACDS.Aplicacion;
 
 namespace SACDS.Controllers
 {
@@ -79,7 +80,7 @@ namespace SACDS.Controllers
         {
             try
             {
-                var correoDisponible = await VerifyCorreoDisponible(donadorDTO.Correo);
+                var correoDisponible = await DonadorDAO.VerifyCorreoDisponible(donadorDTO.Correo);
                 if (!correoDisponible)
                 {
                     return Conflict("El correo proporcionado ya está asociado a otra cuenta.");
@@ -112,7 +113,7 @@ namespace SACDS.Controllers
                 {
                     return NotFound();
                 }
-                var correoDisponible = await VerifyCorreoDisponible(donadorDTO.Correo);
+                var correoDisponible = await DonadorDAO.VerifyCorreoDisponible(donadorDTO.Correo);
                 if (!correoDisponible)
                 {
                     return Conflict("El correo proporcionado ya está asociado a otra cuenta.");
@@ -149,19 +150,6 @@ namespace SACDS.Controllers
             catch (SqlException ex)
             {
                 return StatusCode(ex.ErrorCode);
-            }
-        }
-
-        private async Task<bool> VerifyCorreoDisponible(string correo)
-        {
-            try
-            {
-                Donador donador = await _context.donadors.FirstOrDefaultAsync(d => d.Correo == correo);
-                return donador == null ? true : false;
-            }
-            catch (Exception)
-            {
-                return false;
             }
         }
     }

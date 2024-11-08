@@ -14,7 +14,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("SACDS")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+714e054c2e0c96120a40643fb9eed50f1b3f8e2e")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+e0d85cdab0694d9f97c30ce117f51aa594bf6178")]
 [assembly: System.Reflection.AssemblyProductAttribute("SACDS")]
 [assembly: System.Reflection.AssemblyTitleAttribute("SACDS")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]
