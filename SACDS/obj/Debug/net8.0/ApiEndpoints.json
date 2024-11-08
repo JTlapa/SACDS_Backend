@@ -1,0 +1,544 @@
+[
+  {
+    "ContainingType": "SACDS.Controllers.CitaController",
+    "Method": "AddCita",
+    "RelativePath": "api/Cita/AddCita",
+    "HttpMethod": "POST",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "citaDTO",
+        "Type": "SACDS.Modelo.DTO.CitaDTO",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": [
+      {
+        "Type": "SACDS.Modelo.EntityFramework.Cita",
+        "MediaTypes": [
+          "text/plain",
+          "application/json",
+          "text/json"
+        ],
+        "StatusCode": 200
+      }
+    ]
+  },
+  {
+    "ContainingType": "SACDS.Controllers.CitaController",
+    "Method": "DeleteCita",
+    "RelativePath": "api/Cita/DeleteCita/{id}",
+    "HttpMethod": "DELETE",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "id",
+        "Type": "System.Int32",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": [
+      {
+        "Type": "SACDS.Modelo.EntityFramework.Cita",
+        "MediaTypes": [
+          "text/plain",
+          "application/json",
+          "text/json"
+        ],
+        "StatusCode": 200
+      }
+    ]
+  },
+  {
+    "ContainingType": "SACDS.Controllers.CitaController",
+    "Method": "GetCita",
+    "RelativePath": "api/Cita/GetCita/{id}",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "id",
+        "Type": "System.Int32",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": [
+      {
+        "Type": "SACDS.Modelo.DTO.CitaDTO",
+        "MediaTypes": [
+          "text/plain",
+          "application/json",
+          "text/json"
+        ],
+        "StatusCode": 200
+      }
+    ]
+  },
+  {
+    "ContainingType": "SACDS.Controllers.CitaController",
+    "Method": "GetCitas",
+    "RelativePath": "api/Cita/GetCitas",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [],
+    "ReturnTypes": [
+      {
+        "Type": "System.Collections.Generic.IEnumerable\u00601[[SACDS.Modelo.DTO.CitaDTO, SACDS, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]",
+        "MediaTypes": [
+          "text/plain",
+          "application/json",
+          "text/json"
+        ],
+        "StatusCode": 200
+      }
+    ]
+  },
+  {
+    "ContainingType": "SACDS.Controllers.CitaController",
+    "Method": "UpdateCita",
+    "RelativePath": "api/Cita/UpdateCita/{id}",
+    "HttpMethod": "PUT",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "id",
+        "Type": "System.Int32",
+        "IsRequired": true
+      },
+      {
+        "Name": "citaDTO",
+        "Type": "SACDS.Modelo.DTO.CitaDTO",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": [
+      {
+        "Type": "SACDS.Modelo.EntityFramework.Cita",
+        "MediaTypes": [
+          "text/plain",
+          "application/json",
+          "text/json"
+        ],
+        "StatusCode": 200
+      }
+    ]
+  },
+  {
+    "ContainingType": "SACDS.Controllers.DonacionUrgenteController",
+    "Method": "AddDonacionUrgente",
+    "RelativePath": "api/DonacionUrgente/AddDonacionUrgente",
+    "HttpMethod": "POST",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "donacionUrgenteDTO",
+        "Type": "SACDS.Modelo.DTO.DonacionUrgenteDTO",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": [
+      {
+        "Type": "SACDS.Modelo.EntityFramework.DonacionUrgente",
+        "MediaTypes": [
+          "text/plain",
+          "application/json",
+          "text/json"
+        ],
+        "StatusCode": 200
+      }
+    ]
+  },
+  {
+    "ContainingType": "SACDS.Controllers.DonacionUrgenteController",
+    "Method": "DeleteDonacionUrgente",
+    "RelativePath": "api/DonacionUrgente/DeleteDonacionUrgente/{id}",
+    "HttpMethod": "DELETE",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "id",
+        "Type": "System.Int32",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": [
+      {
+        "Type": "SACDS.Modelo.EntityFramework.DonacionUrgente",
+        "MediaTypes": [
+          "text/plain",
+          "application/json",
+          "text/json"
+        ],
+        "StatusCode": 200
+      }
+    ]
+  },
+  {
+    "ContainingType": "SACDS.Controllers.DonacionUrgenteController",
+    "Method": "GetDonacionesUrgentes",
+    "RelativePath": "api/DonacionUrgente/GetDonacionesUrgentes",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [],
+    "ReturnTypes": [
+      {
+        "Type": "System.Collections.Generic.IEnumerable\u00601[[SACDS.Modelo.DTO.DonacionUrgenteDTO, SACDS, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]",
+        "MediaTypes": [
+          "text/plain",
+          "application/json",
+          "text/json"
+        ],
+        "StatusCode": 200
+      }
+    ]
+  },
+  {
+    "ContainingType": "SACDS.Controllers.DonacionUrgenteController",
+    "Method": "GetDonacionUrgente",
+    "RelativePath": "api/DonacionUrgente/GetDonacionUrgente/{id}",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "id",
+        "Type": "System.Int32",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": [
+      {
+        "Type": "SACDS.Modelo.DTO.DonacionUrgenteDTO",
+        "MediaTypes": [
+          "text/plain",
+          "application/json",
+          "text/json"
+        ],
+        "StatusCode": 200
+      }
+    ]
+  },
+  {
+    "ContainingType": "SACDS.Controllers.DonacionUrgenteController",
+    "Method": "UpdateDonacionUrgente",
+    "RelativePath": "api/DonacionUrgente/UpdateDonacionUrgente/{id}",
+    "HttpMethod": "PUT",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "id",
+        "Type": "System.Int32",
+        "IsRequired": true
+      },
+      {
+        "Name": "donacionUrgenteDTO",
+        "Type": "SACDS.Modelo.EntityFramework.DonacionUrgente",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": [
+      {
+        "Type": "SACDS.Modelo.EntityFramework.DonacionUrgente",
+        "MediaTypes": [
+          "text/plain",
+          "application/json",
+          "text/json"
+        ],
+        "StatusCode": 200
+      }
+    ]
+  },
+  {
+    "ContainingType": "SACDS.Controllers.DonadorController",
+    "Method": "AddDonador",
+    "RelativePath": "api/Donador/AddDonador",
+    "HttpMethod": "POST",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "donadorDTO",
+        "Type": "SACDS.Modelo.DTO.DonadorDTO",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": [
+      {
+        "Type": "SACDS.Modelo.EntityFramework.Donador",
+        "MediaTypes": [
+          "text/plain",
+          "application/json",
+          "text/json"
+        ],
+        "StatusCode": 200
+      }
+    ]
+  },
+  {
+    "ContainingType": "SACDS.Controllers.DonadorController",
+    "Method": "DeleteDonador",
+    "RelativePath": "api/Donador/DeleteDonador/{id}",
+    "HttpMethod": "DELETE",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "id",
+        "Type": "System.Int32",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": [
+      {
+        "Type": "SACDS.Modelo.EntityFramework.Donador",
+        "MediaTypes": [
+          "text/plain",
+          "application/json",
+          "text/json"
+        ],
+        "StatusCode": 200
+      }
+    ]
+  },
+  {
+    "ContainingType": "SACDS.Controllers.DonadorController",
+    "Method": "GetDonador",
+    "RelativePath": "api/Donador/GetDonador/{id}",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "id",
+        "Type": "System.Int32",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": [
+      {
+        "Type": "SACDS.Modelo.DTO.DonadorDTO",
+        "MediaTypes": [
+          "text/plain",
+          "application/json",
+          "text/json"
+        ],
+        "StatusCode": 200
+      }
+    ]
+  },
+  {
+    "ContainingType": "SACDS.Controllers.DonadorController",
+    "Method": "GetDonadores",
+    "RelativePath": "api/Donador/GetDonadores",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [],
+    "ReturnTypes": [
+      {
+        "Type": "System.Collections.Generic.IEnumerable\u00601[[SACDS.Modelo.DTO.DonadorDTO, SACDS, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]",
+        "MediaTypes": [
+          "text/plain",
+          "application/json",
+          "text/json"
+        ],
+        "StatusCode": 200
+      }
+    ]
+  },
+  {
+    "ContainingType": "SACDS.Controllers.DonadorController",
+    "Method": "Login",
+    "RelativePath": "api/Donador/login",
+    "HttpMethod": "POST",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "donadorDTO",
+        "Type": "SACDS.Modelo.DTO.DonadorDTO",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": [
+      {
+        "Type": "SACDS.Modelo.DTO.DonadorDTO",
+        "MediaTypes": [
+          "text/plain",
+          "application/json",
+          "text/json"
+        ],
+        "StatusCode": 200
+      }
+    ]
+  },
+  {
+    "ContainingType": "SACDS.Controllers.DonadorController",
+    "Method": "UpdateDonador",
+    "RelativePath": "api/Donador/UpdateDonador/{id}",
+    "HttpMethod": "PUT",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "id",
+        "Type": "System.Int32",
+        "IsRequired": true
+      },
+      {
+        "Name": "donadorDTO",
+        "Type": "SACDS.Modelo.DTO.DonadorDTO",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": [
+      {
+        "Type": "SACDS.Modelo.EntityFramework.Donador",
+        "MediaTypes": [
+          "text/plain",
+          "application/json",
+          "text/json"
+        ],
+        "StatusCode": 200
+      }
+    ]
+  },
+  {
+    "ContainingType": "SACDS.Controllers.TipoDonacionController",
+    "Method": "AddTipoDonacion",
+    "RelativePath": "api/TipoDonacion/AddTipoDonacion",
+    "HttpMethod": "POST",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "tipoDonacion",
+        "Type": "SACDS.Modelo.EntityFramework.TipoDonacion",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": [
+      {
+        "Type": "SACDS.Modelo.EntityFramework.TipoDonacion",
+        "MediaTypes": [
+          "text/plain",
+          "application/json",
+          "text/json"
+        ],
+        "StatusCode": 200
+      }
+    ]
+  },
+  {
+    "ContainingType": "SACDS.Controllers.TipoDonacionController",
+    "Method": "DeleteTipoDonacion",
+    "RelativePath": "api/TipoDonacion/DeleteTipoDonacion/{id}",
+    "HttpMethod": "DELETE",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "id",
+        "Type": "System.Int32",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": [
+      {
+        "Type": "SACDS.Modelo.EntityFramework.TipoDonacion",
+        "MediaTypes": [
+          "text/plain",
+          "application/json",
+          "text/json"
+        ],
+        "StatusCode": 200
+      }
+    ]
+  },
+  {
+    "ContainingType": "SACDS.Controllers.TipoDonacionController",
+    "Method": "GetTipoDonacion",
+    "RelativePath": "api/TipoDonacion/GetTipoDonacion/{id}",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "id",
+        "Type": "System.Int32",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": [
+      {
+        "Type": "SACDS.Modelo.EntityFramework.TipoDonacion",
+        "MediaTypes": [
+          "text/plain",
+          "application/json",
+          "text/json"
+        ],
+        "StatusCode": 200
+      }
+    ]
+  },
+  {
+    "ContainingType": "SACDS.Controllers.TipoDonacionController",
+    "Method": "GetTipoDonaciones",
+    "RelativePath": "api/TipoDonacion/GetTipoDonaciones",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [],
+    "ReturnTypes": [
+      {
+        "Type": "System.Collections.Generic.IEnumerable\u00601[[SACDS.Modelo.EntityFramework.TipoDonacion, SACDS, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]",
+        "MediaTypes": [
+          "text/plain",
+          "application/json",
+          "text/json"
+        ],
+        "StatusCode": 200
+      }
+    ]
+  },
+  {
+    "ContainingType": "SACDS.Controllers.TipoDonacionController",
+    "Method": "UpdateTipoDonacion",
+    "RelativePath": "api/TipoDonacion/UpdateTipoDonacion/{id}",
+    "HttpMethod": "PUT",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "id",
+        "Type": "System.Int32",
+        "IsRequired": true
+      },
+      {
+        "Name": "tipoDonacion",
+        "Type": "SACDS.Modelo.EntityFramework.TipoDonacion",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": [
+      {
+        "Type": "SACDS.Modelo.EntityFramework.TipoDonacion",
+        "MediaTypes": [
+          "text/plain",
+          "application/json",
+          "text/json"
+        ],
+        "StatusCode": 200
+      }
+    ]
+  }
+]
