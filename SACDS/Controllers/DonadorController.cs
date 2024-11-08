@@ -115,24 +115,14 @@ namespace SACDS.Controllers
                 var correoDisponible = await VerifyCorreoDisponible(donadorDTO.Correo);
                 if (!correoDisponible)
                 {
-                    return Conflict();
+                    return Conflict("El correo proporcionado ya está asociado a otra cuenta.");
                 }
 
-                // Solo actualiza los campos que no son nulos en donadorDTO
-                if (donadorDTO.Correo != null)
-                {
-                    donador.Correo = donadorDTO.Correo;
-                }
-
-                if (donadorDTO.Contrasena != null)
-                {
-                    donador.Contrasena = donadorDTO.Contrasena;
-                }
-
+                donador = _mapper.Map<Donador>(donadorDTO);
                 _context.Entry(donador).State = EntityState.Modified;
                 await _context.SaveChangesAsync();
 
-                return NoContent();
+                return Ok(donador);
             }
             catch (SqlException ex)
             {
@@ -164,8 +154,15 @@ namespace SACDS.Controllers
 
         private async Task<bool> VerifyCorreoDisponible(string correo)
         {
-            var donador = await _context.donadors.FirstOrDefaultAsync(d => d.Correo == correo);
-            return donador == null;
+            try
+            {
+                Donador donador = await _context.donadors.FirstOrDefaultAsync(d => d.Correo == correo);
+                return donador == null ? true : false;
+            }
+            catch (Exception)
+            {
+                return false;
+            }
         }
     }
  }

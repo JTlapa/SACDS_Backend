@@ -11,5 +11,6 @@
         public string Direccion { get; set; }
         public string Contrasena { get; set; }
         public string GrupoSanguineo { get; set; }
+        public bool EsDonador { get; set; }
     }
 }
