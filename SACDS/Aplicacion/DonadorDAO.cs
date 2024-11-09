@@ -6,13 +6,20 @@ namespace SACDS.Aplicacion
     public static class DonadorDAO
     {
 
-        private static readonly SADCDSDbContext _context;
+        public static SADCDSDbContext _context;
         public static async Task<bool> VerifyCorreoDisponible(string correo)
         {
             try
             {
                 Donador donador = await _context.donadors.FirstOrDefaultAsync(d => d.Correo == correo);
-                return donador == null ? true : false;
+                if (donador == null)
+                {
+                    return true;
+                }else
+                {
+                    return false;
+                }
+
             }
             catch (Exception)
             {

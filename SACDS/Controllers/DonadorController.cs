@@ -80,6 +80,7 @@ namespace SACDS.Controllers
         {
             try
             {
+                DonadorDAO._context = _context;
                 var correoDisponible = await DonadorDAO.VerifyCorreoDisponible(donadorDTO.Correo);
                 if (!correoDisponible)
                 {
@@ -113,6 +114,7 @@ namespace SACDS.Controllers
                 {
                     return NotFound();
                 }
+                DonadorDAO._context = _context;
                 var correoDisponible = await DonadorDAO.VerifyCorreoDisponible(donadorDTO.Correo);
                 if (!correoDisponible)
                 {

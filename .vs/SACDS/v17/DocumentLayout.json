@@ -44,10 +44,9 @@
               "RelativeDocumentMoniker": "SACDS\\Aplicacion\\DonadorDAO.cs",
               "ToolTip": "C:\\Users\\chess\\source\\repos\\SACDS_Backend\\SACDS\\Aplicacion\\DonadorDAO.cs",
               "RelativeToolTip": "SACDS\\Aplicacion\\DonadorDAO.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAABEAAAANAAAA",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAuwAgAAAAVAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-11-08T22:44:55.61Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-11-08T22:44:55.61Z"
             },
             {
               "$type": "Document",
@@ -57,7 +56,7 @@
               "RelativeDocumentMoniker": "SACDS\\Controllers\\DonadorController.cs",
               "ToolTip": "C:\\Users\\chess\\source\\repos\\SACDS_Backend\\SACDS\\Controllers\\DonadorController.cs",
               "RelativeToolTip": "SACDS\\Controllers\\DonadorController.cs",
-              "ViewState": "AQIAAF8AAAAAAAAAAAAkwHMAAAA5AAAA",
+              "ViewState": "AQIAAGIAAAAAAAAAAAAkwGgAAAANAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2024-10-30T22:08:04.98Z",
               "EditorCaption": ""
@@ -70,7 +69,7 @@
               "RelativeDocumentMoniker": "SACDS\\Modelo\\EntityFramework\\Donador.cs",
               "ToolTip": "C:\\Users\\chess\\source\\repos\\SACDS_Backend\\SACDS\\Modelo\\EntityFramework\\Donador.cs",
               "RelativeToolTip": "SACDS\\Modelo\\EntityFramework\\Donador.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAoAAAASAAAA",
+              "ViewState": "AQIAABIAAAAAAAAAAAAAAAoAAAASAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2024-10-30T22:07:22.031Z"
             },
