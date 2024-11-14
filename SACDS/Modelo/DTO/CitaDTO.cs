@@ -7,5 +7,6 @@
         public int IdTipoDonacion { get; set; }
         public int IdDonacionUrgente { get; set; }
         public DateTime FechaDonacion { get; set; }
+        public int DiasReposo { get; set; }
     }
 }

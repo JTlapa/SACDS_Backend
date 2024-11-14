@@ -55,13 +55,37 @@ namespace SACDS.Controllers
             }
         }
 
+        [HttpGet]
+        [Route("GetCitasDonador/{idDonador}")]
+        public async Task<ActionResult<CitaDTO>> GetCitasDonador(int idDonador)
+        {
+            try
+            {
+                Cita cita = await _context.Citas
+                    .Where(c => c.IdDonador == idDonador)
+                    .OrderByDescending(c => c.Id)
+                    .FirstOrDefaultAsync();
+                if (cita == null)
+                    return NotFound();
+                else
+                    return _mapper.Map<CitaDTO>(cita);
+            }
+            catch (Exception ex)
+            {
+                return StatusCode(ex.HResult);
+            }
+        }
+
         [HttpPost]
         [Route("AddCita")]
         public async Task<ActionResult<Cita>> AddCita(CitaDTO citaDTO)
         {
+
             try
             {
+                var tipoDonacion = await _context.tipoDonacions.FirstOrDefaultAsync(td => td.Id == citaDTO.IdTipoDonacion);
                 Cita cita = _mapper.Map<Cita>(citaDTO);
+                cita.DiasReposo = tipoDonacion.DiasReposo;
                 _context.Citas.Add(cita);
                 await _context.SaveChangesAsync();
                 return CreatedAtAction("GetCita", new { id = cita.Id }, cita);
