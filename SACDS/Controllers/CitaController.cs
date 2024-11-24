@@ -76,6 +76,25 @@ namespace SACDS.Controllers
             }
         }
 
+        [HttpGet]
+        [Route("GetCitasCurrentDay")]
+        public async Task<ActionResult<IEnumerable<CitaDTO>>> GetCitasCurrentDay()
+        {
+            try
+            {
+                DateTime today = DateTime.Today;
+                List<Cita> citas = await _context.Citas
+                    .Where(c => c.FechaDonacion == today && c.Atendida == true)
+                    .ToListAsync();
+                return _mapper.Map<List<CitaDTO>>(citas);
+            }
+            catch (Exception ex)
+            {
+                return StatusCode(ex.HResult);
+            }
+        }
+
+
         [HttpPost]
         [Route("AddCita")]
         public async Task<ActionResult<Cita>> AddCita(CitaDTO citaDTO)

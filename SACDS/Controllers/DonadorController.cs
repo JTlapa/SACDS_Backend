@@ -108,7 +108,7 @@ namespace SACDS.Controllers
 
             try
             {
-                var donador = await _context.donadors.FindAsync(id);
+                var donador = await _context.donadors.AsNoTracking().FirstOrDefaultAsync(d => d.Id == id);
 
                 if (donador == null)
                 {

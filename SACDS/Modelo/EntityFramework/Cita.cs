@@ -18,6 +18,8 @@ namespace SACDS.Modelo.EntityFramework
         public DateTime FechaDonacion { get; set; }
         [Required]
         public int DiasReposo { get; set; }
+        [Required]
+        public bool Atendida { get; set; }
 
 
         public virtual DonacionUrgente DonacionUrgente { get; set; }

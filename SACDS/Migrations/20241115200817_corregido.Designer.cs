@@ -3,6 +3,7 @@ using System;
 using Microsoft.EntityFrameworkCore;
 using Microsoft.EntityFrameworkCore.Infrastructure;
 using Microsoft.EntityFrameworkCore.Metadata;
+using Microsoft.EntityFrameworkCore.Migrations;
 using Microsoft.EntityFrameworkCore.Storage.ValueConversion;
 using SACDS.Modelo.EntityFramework;
 
@@ -11,9 +12,11 @@ using SACDS.Modelo.EntityFramework;
 namespace SACDS.Migrations
 {
     [DbContext(typeof(SADCDSDbContext))]
-    partial class SADCDSDbContextModelSnapshot : ModelSnapshot
+    [Migration("20241115200817_corregido")]
+    partial class Corregido
     {
-        protected override void BuildModel(ModelBuilder modelBuilder)
+        /// <inheritdoc />
+        protected override void BuildTargetModel(ModelBuilder modelBuilder)
         {
 #pragma warning disable 612, 618
             modelBuilder
@@ -29,9 +32,6 @@ namespace SACDS.Migrations
                         .HasColumnType("int");
 
                     SqlServerPropertyBuilderExtensions.UseIdentityColumn(b.Property<int>("Id"));
-
-                    b.Property<bool>("Atendida")
-                        .HasColumnType("bit");
 
                     b.Property<int>("DiasReposo")
                         .HasColumnType("int");

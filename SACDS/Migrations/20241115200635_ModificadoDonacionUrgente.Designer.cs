@@ -3,6 +3,7 @@ using System;
 using Microsoft.EntityFrameworkCore;
 using Microsoft.EntityFrameworkCore.Infrastructure;
 using Microsoft.EntityFrameworkCore.Metadata;
+using Microsoft.EntityFrameworkCore.Migrations;
 using Microsoft.EntityFrameworkCore.Storage.ValueConversion;
 using SACDS.Modelo.EntityFramework;
 
@@ -11,9 +12,11 @@ using SACDS.Modelo.EntityFramework;
 namespace SACDS.Migrations
 {
     [DbContext(typeof(SADCDSDbContext))]
-    partial class SADCDSDbContextModelSnapshot : ModelSnapshot
+    [Migration("20241115200635_ModificadoDonacionUrgente")]
+    partial class ModificadoDonacionUrgente
     {
-        protected override void BuildModel(ModelBuilder modelBuilder)
+        /// <inheritdoc />
+        protected override void BuildTargetModel(ModelBuilder modelBuilder)
         {
 #pragma warning disable 612, 618
             modelBuilder
@@ -29,9 +32,6 @@ namespace SACDS.Migrations
                         .HasColumnType("int");
 
                     SqlServerPropertyBuilderExtensions.UseIdentityColumn(b.Property<int>("Id"));
-
-                    b.Property<bool>("Atendida")
-                        .HasColumnType("bit");
 
                     b.Property<int>("DiasReposo")
                         .HasColumnType("int");
@@ -84,19 +84,14 @@ namespace SACDS.Migrations
                         .IsRequired()
                         .HasColumnType("nvarchar(max)");
 
-                    b.Property<int>("IdTipoDonacion")
-                        .HasColumnType("int");
-
                     b.Property<string>("NombrePaciente")
                         .IsRequired()
                         .HasColumnType("nvarchar(max)");
 
-                    b.Property<int?>("TipoDonacionId")
+                    b.Property<int>("TipoDonacion")
                         .HasColumnType("int");
 
                     b.HasKey("Id");
-
-                    b.HasIndex("TipoDonacionId");
 
                     b.ToTable("DonacionUrgentes");
                 });
@@ -186,15 +181,6 @@ namespace SACDS.Migrations
                     b.Navigation("DonacionUrgente");
 
                     b.Navigation("Donador");
-
-                    b.Navigation("TipoDonacion");
-                });
-
-            modelBuilder.Entity("SACDS.Modelo.EntityFramework.DonacionUrgente", b =>
-                {
-                    b.HasOne("SACDS.Modelo.EntityFramework.TipoDonacion", "TipoDonacion")
-                        .WithMany()
-                        .HasForeignKey("TipoDonacionId");
 
                     b.Navigation("TipoDonacion");
                 });

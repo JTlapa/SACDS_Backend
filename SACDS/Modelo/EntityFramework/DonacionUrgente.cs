@@ -14,5 +14,10 @@ namespace SACDS.Modelo.EntityFramework
         public string AreaPaciente { get; set; }
         [Required]
         public string GrupoSanguineoPaciente { get; set; }
+        [Required]
+        public int IdTipoDonacion { get; set; }
+
+        public virtual TipoDonacion TipoDonacion { get; set; }
+
     }
 }

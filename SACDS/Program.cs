@@ -3,6 +3,14 @@ using SACDS.Modelo.EntityFramework;
 
 var builder = WebApplication.CreateBuilder(args);
 
+// Configuración de Kestrel para especificar puertos en producción
+builder.WebHost.ConfigureKestrel(options =>
+{
+    options.ListenAnyIP(5002); // Puerto único para esta aplicación
+});
+
+
+
 // Add services to the container.
 
 builder.Services.AddControllers();
@@ -10,7 +18,7 @@ builder.Services.AddControllers();
 builder.Services.AddEndpointsApiExplorer();
 builder.Services.AddSwaggerGen();
 builder.Services.AddDbContext <SADCDSDbContext> (option =>
-    option.UseSqlServer(builder.Configuration.GetConnectionString("DefaultConnection")));
+    option.UseSqlServer(builder.Configuration.GetConnectionString("SADC")));
 
 builder.Services.AddAutoMapper(AppDomain.CurrentDomain.GetAssemblies());
 
@@ -18,11 +26,9 @@ builder.Services.AddAutoMapper(AppDomain.CurrentDomain.GetAssemblies());
 var app = builder.Build();
 
 // Configure the HTTP request pipeline.
-if (app.Environment.IsDevelopment())
-{
     app.UseSwagger();
     app.UseSwaggerUI();
-}
+
 
 
 

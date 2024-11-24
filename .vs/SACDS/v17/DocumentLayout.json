@@ -3,6 +3,54 @@
   "WorkspaceRootPath": "C:\\Users\\chess\\source\\repos\\SACDS_Backend\\",
   "Documents": [
     {
+      "AbsoluteMoniker": "D:0:0:{BC2CEA0B-ADCD-4484-8C28-B19EB31A3233}|SACDS\\SACDS.csproj|c:\\users\\chess\\source\\repos\\sacds_backend\\sacds\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{BC2CEA0B-ADCD-4484-8C28-B19EB31A3233}|SACDS\\SACDS.csproj|solutionrelative:sacds\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{BC2CEA0B-ADCD-4484-8C28-B19EB31A3233}|SACDS\\SACDS.csproj|c:\\users\\chess\\source\\repos\\sacds_backend\\sacds\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}",
+      "RelativeMoniker": "D:0:0:{BC2CEA0B-ADCD-4484-8C28-B19EB31A3233}|SACDS\\SACDS.csproj|solutionrelative:sacds\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{BC2CEA0B-ADCD-4484-8C28-B19EB31A3233}|SACDS\\SACDS.csproj|c:\\users\\chess\\source\\repos\\sacds_backend\\sacds\\properties\\launchsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}",
+      "RelativeMoniker": "D:0:0:{BC2CEA0B-ADCD-4484-8C28-B19EB31A3233}|SACDS\\SACDS.csproj|solutionrelative:sacds\\properties\\launchsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{BC2CEA0B-ADCD-4484-8C28-B19EB31A3233}|SACDS\\SACDS.csproj|c:\\users\\chess\\source\\repos\\sacds_backend\\sacds\\properties\\publishprofiles\\folderprofile.pubxml||{FA3CD31E-987B-443A-9B81-186104E8DAC1}",
+      "RelativeMoniker": "D:0:0:{BC2CEA0B-ADCD-4484-8C28-B19EB31A3233}|SACDS\\SACDS.csproj|solutionrelative:sacds\\properties\\publishprofiles\\folderprofile.pubxml||{FA3CD31E-987B-443A-9B81-186104E8DAC1}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{BC2CEA0B-ADCD-4484-8C28-B19EB31A3233}|SACDS\\SACDS.csproj|c:\\users\\chess\\source\\repos\\sacds_backend\\sacds\\properties\\publishprofiles\\folderprofile1.pubxml||{FA3CD31E-987B-443A-9B81-186104E8DAC1}",
+      "RelativeMoniker": "D:0:0:{BC2CEA0B-ADCD-4484-8C28-B19EB31A3233}|SACDS\\SACDS.csproj|solutionrelative:sacds\\properties\\publishprofiles\\folderprofile1.pubxml||{FA3CD31E-987B-443A-9B81-186104E8DAC1}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{BC2CEA0B-ADCD-4484-8C28-B19EB31A3233}|SACDS\\SACDS.csproj|c:\\users\\chess\\source\\repos\\sacds_backend\\sacds\\sacds.csproj||{04B8AB82-A572-4FEF-95CE-5222444B6B64}|",
+      "RelativeMoniker": "D:0:0:{BC2CEA0B-ADCD-4484-8C28-B19EB31A3233}|SACDS\\SACDS.csproj|solutionrelative:sacds\\sacds.csproj||{04B8AB82-A572-4FEF-95CE-5222444B6B64}|"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{BC2CEA0B-ADCD-4484-8C28-B19EB31A3233}|SACDS\\SACDS.csproj|c:\\users\\chess\\source\\repos\\sacds_backend\\sacds\\sacds.http||{5703B403-55E7-4C63-8C88-A8F52C7A45C5}",
+      "RelativeMoniker": "D:0:0:{BC2CEA0B-ADCD-4484-8C28-B19EB31A3233}|SACDS\\SACDS.csproj|solutionrelative:sacds\\sacds.http||{5703B403-55E7-4C63-8C88-A8F52C7A45C5}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{BC2CEA0B-ADCD-4484-8C28-B19EB31A3233}|SACDS\\SACDS.csproj|c:\\users\\chess\\source\\repos\\sacds_backend\\sacds\\modelo\\entityframework\\donador.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{BC2CEA0B-ADCD-4484-8C28-B19EB31A3233}|SACDS\\SACDS.csproj|solutionrelative:sacds\\modelo\\entityframework\\donador.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{BC2CEA0B-ADCD-4484-8C28-B19EB31A3233}|SACDS\\SACDS.csproj|c:\\users\\chess\\source\\repos\\sacds_backend\\sacds\\modelo\\entityframework\\sacdsdbcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{BC2CEA0B-ADCD-4484-8C28-B19EB31A3233}|SACDS\\SACDS.csproj|solutionrelative:sacds\\modelo\\entityframework\\sacdsdbcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{BC2CEA0B-ADCD-4484-8C28-B19EB31A3233}|SACDS\\SACDS.csproj|c:\\users\\chess\\source\\repos\\sacds_backend\\sacds\\controllers\\donadorcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{BC2CEA0B-ADCD-4484-8C28-B19EB31A3233}|SACDS\\SACDS.csproj|solutionrelative:sacds\\controllers\\donadorcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{BC2CEA0B-ADCD-4484-8C28-B19EB31A3233}|SACDS\\SACDS.csproj|c:\\users\\chess\\source\\repos\\sacds_backend\\sacds\\controllers\\donacionurgentecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{BC2CEA0B-ADCD-4484-8C28-B19EB31A3233}|SACDS\\SACDS.csproj|solutionrelative:sacds\\controllers\\donacionurgentecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{BC2CEA0B-ADCD-4484-8C28-B19EB31A3233}|SACDS\\SACDS.csproj|c:\\users\\chess\\source\\repos\\sacds_backend\\sacds\\modelo\\dto\\donadordto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{BC2CEA0B-ADCD-4484-8C28-B19EB31A3233}|SACDS\\SACDS.csproj|solutionrelative:sacds\\modelo\\dto\\donadordto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
       "AbsoluteMoniker": "D:0:0:{BC2CEA0B-ADCD-4484-8C28-B19EB31A3233}|SACDS\\SACDS.csproj|c:\\users\\chess\\source\\repos\\sacds_backend\\sacds\\controllers\\citacontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{BC2CEA0B-ADCD-4484-8C28-B19EB31A3233}|SACDS\\SACDS.csproj|solutionrelative:sacds\\controllers\\citacontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
@@ -15,20 +63,16 @@
       "RelativeMoniker": "D:0:0:{BC2CEA0B-ADCD-4484-8C28-B19EB31A3233}|SACDS\\SACDS.csproj|solutionrelative:sacds\\modelo\\entityframework\\cita.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
+      "AbsoluteMoniker": "D:0:0:{BC2CEA0B-ADCD-4484-8C28-B19EB31A3233}|SACDS\\SACDS.csproj|c:\\users\\chess\\source\\repos\\sacds_backend\\sacds\\modelo\\dto\\donacionurgentedto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{BC2CEA0B-ADCD-4484-8C28-B19EB31A3233}|SACDS\\SACDS.csproj|solutionrelative:sacds\\modelo\\dto\\donacionurgentedto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{BC2CEA0B-ADCD-4484-8C28-B19EB31A3233}|SACDS\\SACDS.csproj|c:\\users\\chess\\source\\repos\\sacds_backend\\sacds\\modelo\\entityframework\\donacionurgente.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{BC2CEA0B-ADCD-4484-8C28-B19EB31A3233}|SACDS\\SACDS.csproj|solutionrelative:sacds\\modelo\\entityframework\\donacionurgente.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
       "AbsoluteMoniker": "D:0:0:{BC2CEA0B-ADCD-4484-8C28-B19EB31A3233}|SACDS\\SACDS.csproj|c:\\users\\chess\\source\\repos\\sacds_backend\\sacds\\aplicacion\\donadordao.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{BC2CEA0B-ADCD-4484-8C28-B19EB31A3233}|SACDS\\SACDS.csproj|solutionrelative:sacds\\aplicacion\\donadordao.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{BC2CEA0B-ADCD-4484-8C28-B19EB31A3233}|SACDS\\SACDS.csproj|c:\\users\\chess\\source\\repos\\sacds_backend\\sacds\\controllers\\donadorcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{BC2CEA0B-ADCD-4484-8C28-B19EB31A3233}|SACDS\\SACDS.csproj|solutionrelative:sacds\\controllers\\donadorcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{BC2CEA0B-ADCD-4484-8C28-B19EB31A3233}|SACDS\\SACDS.csproj|c:\\users\\chess\\source\\repos\\sacds_backend\\sacds\\modelo\\entityframework\\donador.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{BC2CEA0B-ADCD-4484-8C28-B19EB31A3233}|SACDS\\SACDS.csproj|solutionrelative:sacds\\modelo\\entityframework\\donador.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{BC2CEA0B-ADCD-4484-8C28-B19EB31A3233}|SACDS\\SACDS.csproj|c:\\users\\chess\\source\\repos\\sacds_backend\\sacds\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}",
-      "RelativeMoniker": "D:0:0:{BC2CEA0B-ADCD-4484-8C28-B19EB31A3233}|SACDS\\SACDS.csproj|solutionrelative:sacds\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}"
     }
   ],
   "DocumentGroupContainers": [
@@ -38,7 +82,7 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 6,
+          "SelectedChildIndex": 5,
           "Children": [
             {
               "$type": "Bookmark",
@@ -46,33 +90,175 @@
             },
             {
               "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "launchSettings.json",
+              "DocumentMoniker": "C:\\Users\\chess\\source\\repos\\SACDS_Backend\\SACDS\\Properties\\launchSettings.json",
+              "RelativeDocumentMoniker": "SACDS\\Properties\\launchSettings.json",
+              "ToolTip": "C:\\Users\\chess\\source\\repos\\SACDS_Backend\\SACDS\\Properties\\launchSettings.json",
+              "RelativeToolTip": "SACDS\\Properties\\launchSettings.json",
+              "ViewState": "AQIAAAgAAAAAAAAAAAAmwCkAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
+              "WhenOpened": "2024-11-24T00:45:17.439Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "FolderProfile1.pubxml",
+              "DocumentMoniker": "C:\\Users\\chess\\source\\repos\\SACDS_Backend\\SACDS\\Properties\\PublishProfiles\\FolderProfile1.pubxml",
+              "RelativeDocumentMoniker": "SACDS\\Properties\\PublishProfiles\\FolderProfile1.pubxml",
+              "ToolTip": "C:\\Users\\chess\\source\\repos\\SACDS_Backend\\SACDS\\Properties\\PublishProfiles\\FolderProfile1.pubxml",
+              "RelativeToolTip": "SACDS\\Properties\\PublishProfiles\\FolderProfile1.pubxml",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003576|",
+              "WhenOpened": "2024-11-24T00:45:16.262Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "FolderProfile.pubxml",
+              "DocumentMoniker": "C:\\Users\\chess\\source\\repos\\SACDS_Backend\\SACDS\\Properties\\PublishProfiles\\FolderProfile.pubxml",
+              "RelativeDocumentMoniker": "SACDS\\Properties\\PublishProfiles\\FolderProfile.pubxml",
+              "ToolTip": "C:\\Users\\chess\\source\\repos\\SACDS_Backend\\SACDS\\Properties\\PublishProfiles\\FolderProfile.pubxml",
+              "RelativeToolTip": "SACDS\\Properties\\PublishProfiles\\FolderProfile.pubxml",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003576|",
+              "WhenOpened": "2024-11-24T00:45:09.389Z"
+            },
+            {
+              "$type": "Document",
               "DocumentIndex": 1,
-              "Title": "CitaDTO.cs",
-              "DocumentMoniker": "C:\\Users\\chess\\source\\repos\\SACDS_Backend\\SACDS\\Modelo\\DTO\\CitaDTO.cs",
-              "RelativeDocumentMoniker": "SACDS\\Modelo\\DTO\\CitaDTO.cs",
-              "ToolTip": "C:\\Users\\chess\\source\\repos\\SACDS_Backend\\SACDS\\Modelo\\DTO\\CitaDTO.cs",
-              "RelativeToolTip": "SACDS\\Modelo\\DTO\\CitaDTO.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAwAAAAAAAAA",
+              "Title": "appsettings.json",
+              "DocumentMoniker": "C:\\Users\\chess\\source\\repos\\SACDS_Backend\\SACDS\\appsettings.json",
+              "RelativeDocumentMoniker": "SACDS\\appsettings.json",
+              "ToolTip": "C:\\Users\\chess\\source\\repos\\SACDS_Backend\\SACDS\\appsettings.json",
+              "RelativeToolTip": "SACDS\\appsettings.json",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
+              "WhenOpened": "2024-10-30T04:29:24.728Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "Program.cs",
+              "DocumentMoniker": "C:\\Users\\chess\\source\\repos\\SACDS_Backend\\SACDS\\Program.cs",
+              "RelativeDocumentMoniker": "SACDS\\Program.cs",
+              "ToolTip": "C:\\Users\\chess\\source\\repos\\SACDS_Backend\\SACDS\\Program.cs",
+              "RelativeToolTip": "SACDS\\Program.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAABQAAAA5AAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-11-14T03:02:29.94Z",
+              "WhenOpened": "2024-11-15T23:48:34.16Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 2,
+              "DocumentIndex": 5,
+              "Title": "SACDS",
+              "DocumentMoniker": "C:\\Users\\chess\\source\\repos\\SACDS_Backend\\SACDS\\SACDS.csproj",
+              "RelativeDocumentMoniker": "SACDS\\SACDS.csproj",
+              "ToolTip": "C:\\Users\\chess\\source\\repos\\SACDS_Backend\\SACDS\\SACDS.csproj",
+              "RelativeToolTip": "SACDS\\SACDS.csproj",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000758|",
+              "WhenOpened": "2024-11-24T01:10:33.509Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
+              "Title": "SACDS.http",
+              "DocumentMoniker": "C:\\Users\\chess\\source\\repos\\SACDS_Backend\\SACDS\\SACDS.http",
+              "RelativeDocumentMoniker": "SACDS\\SACDS.http",
+              "ToolTip": "C:\\Users\\chess\\source\\repos\\SACDS_Backend\\SACDS\\SACDS.http",
+              "RelativeToolTip": "SACDS\\SACDS.http",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003502|",
+              "WhenOpened": "2024-11-24T00:45:44.78Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 8,
+              "Title": "SACDSDbContext.cs",
+              "DocumentMoniker": "C:\\Users\\chess\\source\\repos\\SACDS_Backend\\SACDS\\Modelo\\EntityFramework\\SACDSDbContext.cs",
+              "RelativeDocumentMoniker": "SACDS\\Modelo\\EntityFramework\\SACDSDbContext.cs",
+              "ToolTip": "C:\\Users\\chess\\source\\repos\\SACDS_Backend\\SACDS\\Modelo\\EntityFramework\\SACDSDbContext.cs",
+              "RelativeToolTip": "SACDS\\Modelo\\EntityFramework\\SACDSDbContext.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAkAAAAmAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-11-24T00:18:00.023Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 9,
+              "Title": "DonadorController.cs",
+              "DocumentMoniker": "C:\\Users\\chess\\source\\repos\\SACDS_Backend\\SACDS\\Controllers\\DonadorController.cs",
+              "RelativeDocumentMoniker": "SACDS\\Controllers\\DonadorController.cs",
+              "ToolTip": "C:\\Users\\chess\\source\\repos\\SACDS_Backend\\SACDS\\Controllers\\DonadorController.cs",
+              "RelativeToolTip": "SACDS\\Controllers\\DonadorController.cs",
+              "ViewState": "AQIAAGQAAAAAAAAAAAAAAHoAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-10-30T22:08:04.98Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 14,
               "Title": "Cita.cs",
               "DocumentMoniker": "C:\\Users\\chess\\source\\repos\\SACDS_Backend\\SACDS\\Modelo\\EntityFramework\\Cita.cs",
               "RelativeDocumentMoniker": "SACDS\\Modelo\\EntityFramework\\Cita.cs",
               "ToolTip": "C:\\Users\\chess\\source\\repos\\SACDS_Backend\\SACDS\\Modelo\\EntityFramework\\Cita.cs",
               "RelativeToolTip": "SACDS\\Modelo\\EntityFramework\\Cita.cs",
-              "ViewState": "AQIAAAEAAAAAAAAAAAAmwBMAAAAIAAAA",
+              "ViewState": "AQIAAAEAAAAAAAAAAAAmwBYAAAAAAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-11-14T00:12:40.945Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-11-14T00:12:40.945Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 3,
+              "DocumentIndex": 16,
+              "Title": "DonacionUrgente.cs",
+              "DocumentMoniker": "C:\\Users\\chess\\source\\repos\\SACDS_Backend\\SACDS\\Modelo\\EntityFramework\\DonacionUrgente.cs",
+              "RelativeDocumentMoniker": "SACDS\\Modelo\\EntityFramework\\DonacionUrgente.cs",
+              "ToolTip": "C:\\Users\\chess\\source\\repos\\SACDS_Backend\\SACDS\\Modelo\\EntityFramework\\DonacionUrgente.cs",
+              "RelativeToolTip": "SACDS\\Modelo\\EntityFramework\\DonacionUrgente.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAABIAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-11-15T20:04:07.614Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 7,
+              "Title": "Donador.cs",
+              "DocumentMoniker": "C:\\Users\\chess\\source\\repos\\SACDS_Backend\\SACDS\\Modelo\\EntityFramework\\Donador.cs",
+              "RelativeDocumentMoniker": "SACDS\\Modelo\\EntityFramework\\Donador.cs",
+              "ToolTip": "C:\\Users\\chess\\source\\repos\\SACDS_Backend\\SACDS\\Modelo\\EntityFramework\\Donador.cs",
+              "RelativeToolTip": "SACDS\\Modelo\\EntityFramework\\Donador.cs",
+              "ViewState": "AQIAAAYAAAAAAAAAAAAAAAoAAAASAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-10-30T22:07:22.031Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 11,
+              "Title": "DonadorDTO.cs",
+              "DocumentMoniker": "C:\\Users\\chess\\source\\repos\\SACDS_Backend\\SACDS\\Modelo\\DTO\\DonadorDTO.cs",
+              "RelativeDocumentMoniker": "SACDS\\Modelo\\DTO\\DonadorDTO.cs",
+              "ToolTip": "C:\\Users\\chess\\source\\repos\\SACDS_Backend\\SACDS\\Modelo\\DTO\\DonadorDTO.cs",
+              "RelativeToolTip": "SACDS\\Modelo\\DTO\\DonadorDTO.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-11-17T00:54:28.324Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 10,
+              "Title": "DonacionUrgenteController.cs",
+              "DocumentMoniker": "C:\\Users\\chess\\source\\repos\\SACDS_Backend\\SACDS\\Controllers\\DonacionUrgenteController.cs",
+              "RelativeDocumentMoniker": "SACDS\\Controllers\\DonacionUrgenteController.cs",
+              "ToolTip": "C:\\Users\\chess\\source\\repos\\SACDS_Backend\\SACDS\\Controllers\\DonacionUrgenteController.cs",
+              "RelativeToolTip": "SACDS\\Controllers\\DonacionUrgenteController.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-11-17T01:06:39.171Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 17,
               "Title": "DonadorDAO.cs",
               "DocumentMoniker": "C:\\Users\\chess\\source\\repos\\SACDS_Backend\\SACDS\\Aplicacion\\DonadorDAO.cs",
               "RelativeDocumentMoniker": "SACDS\\Aplicacion\\DonadorDAO.cs",
@@ -80,62 +266,43 @@
               "RelativeToolTip": "SACDS\\Aplicacion\\DonadorDAO.cs",
               "ViewState": "AQIAAAAAAAAAAAAAAAAuwAgAAAAVAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-11-08T22:44:55.61Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-11-08T22:44:55.61Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 4,
-              "Title": "DonadorController.cs",
-              "DocumentMoniker": "C:\\Users\\chess\\source\\repos\\SACDS_Backend\\SACDS\\Controllers\\DonadorController.cs",
-              "RelativeDocumentMoniker": "SACDS\\Controllers\\DonadorController.cs",
-              "ToolTip": "C:\\Users\\chess\\source\\repos\\SACDS_Backend\\SACDS\\Controllers\\DonadorController.cs",
-              "RelativeToolTip": "SACDS\\Controllers\\DonadorController.cs",
-              "ViewState": "AQIAAGIAAAAAAAAAAAAkwGgAAAANAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-10-30T22:08:04.98Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 6,
-              "Title": "appsettings.json",
-              "DocumentMoniker": "C:\\Users\\chess\\source\\repos\\SACDS_Backend\\SACDS\\appsettings.json",
-              "RelativeDocumentMoniker": "SACDS\\appsettings.json",
-              "ToolTip": "C:\\Users\\chess\\source\\repos\\SACDS_Backend\\SACDS\\appsettings.json",
-              "RelativeToolTip": "SACDS\\appsettings.json",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAA4AAAAAAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
-              "WhenOpened": "2024-10-30T04:29:24.728Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 0,
+              "DocumentIndex": 12,
               "Title": "CitaController.cs",
               "DocumentMoniker": "C:\\Users\\chess\\source\\repos\\SACDS_Backend\\SACDS\\Controllers\\CitaController.cs",
               "RelativeDocumentMoniker": "SACDS\\Controllers\\CitaController.cs",
               "ToolTip": "C:\\Users\\chess\\source\\repos\\SACDS_Backend\\SACDS\\Controllers\\CitaController.cs",
               "RelativeToolTip": "SACDS\\Controllers\\CitaController.cs",
-              "ViewState": "AQIAAE4AAAAAAAAAAAAgwGcAAAANAAAA",
+              "ViewState": "AQIAAGwAAAAAAAAAAAAAAHYAAAAaAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-10-30T04:50:21.982Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-10-30T04:50:21.982Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 5,
-              "Title": "Donador.cs",
-              "DocumentMoniker": "C:\\Users\\chess\\source\\repos\\SACDS_Backend\\SACDS\\Modelo\\EntityFramework\\Donador.cs",
-              "RelativeDocumentMoniker": "SACDS\\Modelo\\EntityFramework\\Donador.cs",
-              "ToolTip": "C:\\Users\\chess\\source\\repos\\SACDS_Backend\\SACDS\\Modelo\\EntityFramework\\Donador.cs",
-              "RelativeToolTip": "SACDS\\Modelo\\EntityFramework\\Donador.cs",
-              "ViewState": "AQIAABIAAAAAAAAAAAAAAAoAAAASAAAA",
+              "DocumentIndex": 13,
+              "Title": "CitaDTO.cs",
+              "DocumentMoniker": "C:\\Users\\chess\\source\\repos\\SACDS_Backend\\SACDS\\Modelo\\DTO\\CitaDTO.cs",
+              "RelativeDocumentMoniker": "SACDS\\Modelo\\DTO\\CitaDTO.cs",
+              "ToolTip": "C:\\Users\\chess\\source\\repos\\SACDS_Backend\\SACDS\\Modelo\\DTO\\CitaDTO.cs",
+              "RelativeToolTip": "SACDS\\Modelo\\DTO\\CitaDTO.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAoAAAAqAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-10-30T22:07:22.031Z"
+              "WhenOpened": "2024-11-14T03:02:29.94Z"
             },
             {
-              "$type": "Bookmark",
-              "Name": "ST:0:0:{269a02dc-6af8-11d3-bdc4-00c04f688e50}"
+              "$type": "Document",
+              "DocumentIndex": 15,
+              "Title": "DonacionUrgenteDTO.cs",
+              "DocumentMoniker": "C:\\Users\\chess\\source\\repos\\SACDS_Backend\\SACDS\\Modelo\\DTO\\DonacionUrgenteDTO.cs",
+              "RelativeDocumentMoniker": "SACDS\\Modelo\\DTO\\DonacionUrgenteDTO.cs",
+              "ToolTip": "C:\\Users\\chess\\source\\repos\\SACDS_Backend\\SACDS\\Modelo\\DTO\\DonacionUrgenteDTO.cs",
+              "RelativeToolTip": "SACDS\\Modelo\\DTO\\DonacionUrgenteDTO.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAA8AAAAFAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-11-15T20:05:19.888Z"
             }
           ]
         }

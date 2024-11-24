@@ -11,5 +11,7 @@ namespace SACDS.Modelo.DTO
         public string AreaPaciente { get; set; }
         [Required]
         public string GrupoSanguineoPaciente { get; set; }
+        [Required]
+        public int IdTipoDonacion { get; set; }
     }
 }
